@@ -1,0 +1,13 @@
+# -*- coding: utf-8 -*-
+# try something like
+def helloworld():
+    msg = "Hello from the controller!"
+    return locals()
+
+def post():
+    form = SQLFORM(db.blog).process()
+    return locals()
+
+def view():
+    rows = db(db.blog).select(orderby=~db.blog.id)
+    return local()

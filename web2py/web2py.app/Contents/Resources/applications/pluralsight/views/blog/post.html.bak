@@ -1,0 +1,12 @@
+{{extend 'layout.html'}}
+{{extend 'layout.html'}}
+<h1>Our First Web Page</h1>
+<h2>
+    {{=msg}}
+</h2>
+<p>
+    Writing our first page was easy!
+</p>
+
+<h1>Post Blog</h1>
+{{=form}}
